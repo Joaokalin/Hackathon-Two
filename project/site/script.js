@@ -16,6 +16,10 @@ $(document).ready(function(){
       $('.scroll-top').hide();
     }
 
+    function togglePopup(){
+      document.getElementById("popup-1").classList.toggle("active")
+    }
+
     // scroll spy
 
     $('section').each(function(){
